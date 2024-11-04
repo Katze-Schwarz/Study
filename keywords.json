@@ -1,0 +1,5 @@
+{
+    "node": ["https://nodejs.org", "http://nodejs.dev"],
+    "javascript":["https://developer.mozilla.org/en-US/docs/Web/JavaScript", "https://javascript.info"],
+    "html": ["https://developer/mozilla.org/en-US/docs/Web/HTML", "https://w3schools.com/html/"]
+}
