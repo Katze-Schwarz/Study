@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Content Downloader</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Контент Загрузчик</h1>
+        <input type="text" id="keyword" placeholder="Введите ключевое слово">
+        <button id="searchBtn">Искать</button>
+        <ul id="urla"></ul>
+        <div id="downloadSection" style="display:none;">
+            <input type="number" id="threadCount" placeholder="Количество потоков" min="1" max="10">
+            <button id="downloadBtn">Скачать</button>
+        </div>
+        <h2>Статус загруски</h2>
+        <pre id="downloadStatus"></pre>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
